@@ -3,13 +3,14 @@ import {motion} from 'framer-motion'
 import { BiMinus, BiPlus } from 'react-icons/bi'
 import { useStateValue } from '../context/StateProvider';
 import { actionType } from '../context/reducer';
-
+let items=[]
 
 
 const CartItem = ({item,setFlag,flag}) => {
 
     const [qty, setQty] = useState(item.qty);
-    let [items, setItems] = useState([]);
+  //  let [items, setItems] = useState([]);
+  
     const[{cartItems},dispatch]=useStateValue();
 
     const cartDispatch = () => {
@@ -21,37 +22,42 @@ const CartItem = ({item,setFlag,flag}) => {
       };
 
     const updateQty=(action,id)=>{
-        if(action=="add")
+        if(action==="add")
         {
             setQty(qty+1)
             cartItems.map((item) => {
                 if (item.id === id) {
                   item.qty += 1;
                   setFlag(flag + 1);
+                 
               }
+              return null
         });
         cartDispatch();
     }
-    else {
+    if(action==="remove") {
         // initial state value is one so you need to check if 1 then remove it
-        if (qty == 1) {
-          items = cartItems.filter((item) => item.id !== id);
-          setFlag(flag + 1);
+        if (qty === 1) {
+          items=cartItems.filter((item) => item.id !== id);
+          setFlag(flag - 1);
           cartDispatch();
         } else {
           setQty(qty - 1);
           cartItems.map((item) => {
             if (item.id === id) {
               item.qty -= 1;
-              setFlag(flag + 1);
+              setFlag(flag - 1);
+             
             }
+            return null
           });
           cartDispatch();
         }
       }
 };
+
 useEffect(() => {
-    setItems(cartItems)
+    items=cartItems;
   }, [qty,items]);  // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
