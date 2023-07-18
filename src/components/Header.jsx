@@ -49,6 +49,7 @@ const [isMenu, setIsMenu]=useState(false);
     });
   };
 
+  
 
   return (
 
@@ -64,10 +65,19 @@ const [isMenu, setIsMenu]=useState(false);
             initial={{ opacity: 0, x: 200 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 200 }} className="flex items-center gap-24">
+
+          <Link to={"/"} className='focus:font-bold focus:border-b-4 focus:border-orange-400'>
           <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">Home</li>
-          <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">Menu</li>
+          </Link>
+         <Link to={"/createItem"} className=' focus:font-bold focus:border-b-4 focus:border-orange-400'>
+          <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">Menu
+          </li></Link>
+          <Link to={"/aboutUs"} className=' focus:font-bold focus:border-b-4 focus:border-orange-400' >
           <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">About Us</li>
+          </Link>
+          <Link to={"/service"} className=' focus:font-bold focus:border-b-4 focus:border-orange-400'  >
           <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">Service</li>
+          </Link>
           
         </motion.ul>
         <div className="relative flex items-center justify-center" onClick={showCart}>
