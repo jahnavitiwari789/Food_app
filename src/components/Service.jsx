@@ -42,7 +42,7 @@ const Service = () => {
     </section>
    
     <section  className='relative' >
-        <div  className=' bg-[url("./img/bg.jpg")] w-full h-[100%]  bg-no-repeat  object-contain  bg-cover  '> 
+        <div  className=' our-clients w-full h-[100%]  bg-no-repeat  object-contain  bg-cover  '> 
         
      
         <div className="text-center text-4xl mt-2 font-bold relative text-black ">Our Clients</div>
