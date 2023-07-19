@@ -64,19 +64,19 @@ const Footer = () => {
 
               </h4>
               <div className='flex flex-row   mt-[10px] '>
-                <div className='inline-block  mr-[10px] mb-[10px] h-[40px] rounded-full  bg-white/20 w-[40px]'>
+                <div className=' flex justify-center items-center mr-[10px] mb-[10px] h-[40px] rounded-full  bg-white/20 w-[40px]'>
                 <BsFacebook></BsFacebook>
                 </div>
-                <div className='inline-block  mr-[10px] rounded-full mb-[10px] h-[40px]  bg-white/20 w-[40px]'>
+                <div className='flex justify-center items-center   mr-[10px] rounded-full mb-[10px] h-[40px]  bg-white/20 w-[40px]'>
                   <div className='leading-10 text-center'>
                 <BsTwitter ></BsTwitter>
                 </div>
                 </div>
-                <div className='inline-block mb-[10px] rounded-full mr-[10px] h-[40px]  bg-white/20 w-[40px]'>
+                <div className='flex justify-center items-center mb-[10px] rounded-full mr-[10px] h-[40px]  bg-white/20 w-[40px]'>
                 <BsInstagram ></BsInstagram>
                 </div>
                
-               <div className='inline-block mb-[10px] rounded-full mr-[10px] h-[40px]  bg-white/20 w-[40px] '><BsWhatsapp></BsWhatsapp></div> 
+               <div className='flex items-center justify-centermb-[10px] rounded-full mr-[10px] h-[40px]  bg-white/20 w-[40px] '><BsWhatsapp></BsWhatsapp></div> 
                
            
                
