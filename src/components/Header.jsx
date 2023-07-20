@@ -162,11 +162,19 @@ const [isMenu, setIsMenu]=useState(false);
              </Link>
           )}
          <ul className="flex flex-col">
+         <Link to={"/"} className=' focus:font-bold focus:border-b-4 focus:border-orange-400'>
           <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-200 px-4 py-2 "  onClick={() => setIsMenu(false)}>Home</li>
+          </Link>
+          <Link to={"/createItem"} className=' focus:font-bold focus:border-b-4 focus:border-orange-400'>
           <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-200 px-4 py-2 "  onClick={() => setIsMenu(false)}>Menu</li>
+          </Link>
+          <Link to={"/aboutUs"} className=' focus:font-bold focus:border-b-4 focus:border-orange-400' >
           <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-200 px-4 py-2 "  onClick={() => setIsMenu(false)}>About Us</li>
+          </Link>
+          <Link to={"/service"} className=' focus:font-bold focus:border-b-4 focus:border-orange-400'  >
+
           <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-200 px-4 py-2 "  onClick={() => setIsMenu(false)}>Service</li>
-          
+          </Link>
         </ul>
 
 

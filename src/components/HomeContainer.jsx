@@ -23,13 +23,13 @@ const HomeContainer = () => {
       <div className="py-2 flex-1 flex  relative items-center">
         <img src={HeroBg} alt="pic" className=" h-420 w-full lg:w-auto lg:h-650 ml-auto" />
 
-        <div className=" w-full h-full top-0 left-0 lg:px-32 py-4 absolute flex items-center  gap-4 flex-wrap justify-center">
+        <div className=" w-full h-full top-0 left-0 lg:px-32  py-4 absolute flex items-center  gap-4 flex-wrap justify-center">
 
         {heroData &&
             heroData.map((n) => (
               <div
                 key={n.id}
-                className="lg:w-190  p-4 bg-cardOverlay  backdrop-blur-md rounded-3xl flex flex-col items-center justify-center drop-shadow-lg"
+                className="lg:w-190   p-4 bg-cardOverlay  backdrop-blur-md rounded-3xl flex flex-col items-center justify-center drop-shadow-lg"
               >
                 <img
                   src={n.imageSrc}

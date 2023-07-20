@@ -10,7 +10,7 @@ const AboutUs = () => {
  <>
  <section id="hm" className='header-banner hover:'>
 
-        <div className=" p-12 font-bold text-center font-serif text-4xl text-white">Welcome to MyOnlineMeal</div>
+        <div className=" p-12 font-bold text-center font-serif text-4xl text-white">Welcome to My City</div>
         <p className='p-2 text-white text-2xl font-serif'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, numquam? Ex, sequi id voluptatum nisi totam placeat minima vel rem, laudantium numquam dolores quas dolore perferendis. Libero autem id sapiente? </p>
         
         <button className="btn  bg-gradient-to-r from-orange-300 to-orange-500">Order Now</button>
@@ -19,7 +19,7 @@ const AboutUs = () => {
 
 
 
-   <div className='font-Poppins mt-2 bg-orange-200 text-white '>
+   <div className='font-Poppins mt-2 bg-orange-200 text-orange-900'>
     <div className='text-center py-10'>
       <div className='text-headingColor  font-bold text-4xl'>
         Testimonials
