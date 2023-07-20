@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {BsFacebook, BsWhatsapp} from 'react-icons/bs'
-import {BsTwitter,BsInstagram} from 'react-icons/bs'
+import { BsFacebook, BsWhatsapp } from 'react-icons/bs'
+import { BsTwitter, BsInstagram } from 'react-icons/bs'
 
 
 const Footer = () => {
@@ -10,30 +10,30 @@ const Footer = () => {
       <footer className="bg-black p-[70px]">
         <div className='text-white max-w-[1170px] m-auto'>
           <div className='flex flex-wrap'>
-            <div className='p-15 w-[25%]'>
+            <div className='lg:p-15 lg:w-[25%] md:w-[50%] md:mb-[30px] w-[100%] p-2'>
               <h4 className='text-2xl font-Poppins capitalize mb-[30px] relative font-medium '>
-              Company
-              <span className='absolute left-0 bottom-[-10px] bg-pink-500 h-[2px] box-border w-[50px]'>
-              </span>
+                Company
+                <span className='absolute left-0 bottom-[-10px]  bg-orange-600 h-[2px] box-border w-[50px]'>
+                </span>
 
               </h4>
               <ul>
-               
+
                 <Link to={'/'}><li className='mb-[5px]'>Our Services</li></Link>
                 <Link to={'/'}><li className='mb-[5px]'>Privacy Policy</li></Link>
                 <Link to={'/'}><li className='mb-[5px]'>Affiliate Now</li></Link>
               </ul>
             </div>
 
-            <div className='p-15 w-[25%]'>
+            <div className='lg:p-15 lg:w-[25%] md:w-[50%] md:mb-[30px] w-[100%] p-2 '>
               <h4 className='text-2xl font-Poppins capitalize mb-[30px] relative font-medium'>
                 Get help
-                <span className='absolute left-0 bottom-[-10px] bg-pink-500 h-[2px] box-border w-[50px]'>
-               </span>
+                <span className='absolute left-0 bottom-[-10px] bg-orange-600 h-[2px] box-border w-[50px]'>
+                </span>
 
               </h4>
               <ul>
-                <Link to={'/'}><li className='mb-[5px]'>FAQ</li></Link>
+                <Link to={'/'}><li className='mb-[5px] '>FAQ</li></Link>
                 <Link to={'/'}><li className='mb-[5px]'>Shipping</li></Link>
                 <Link to={'/'}><li className='mb-[5px]'>returns</li></Link>
                 <Link to={'/'}><li className='mb-[5px]'>Order Status</li></Link>
@@ -41,13 +41,13 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className='p-15 w-[25%]'>
+            <div className='lg:p-15 lg:w-[25%] md:w-[50%] md:mb-[30px] w-[100%] p-2'>
               <h4 className='text-2xl font-Poppins capitalize mb-[30px] relative font-medium'>
                 Menu Card
-                <span className='absolute left-0 bottom-[-10px] bg-pink-500 h-[2px] box-border w-[50px]'>   
-               </span>
+                <span className='absolute left-0 bottom-[-10px] bg-orange-600 h-[2px] box-border w-[50px]'>
+                </span>
 
-              </h4> 
+              </h4>
               <ul className=''>
                 <Link to={'/'} className='' ><li className='mb-[5px]'>Fruits</li></Link>
                 <Link to={'/'}  ><li className='mb-[5px]'>Ice-cream</li></Link>
@@ -56,32 +56,34 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className=' p-15 w-[25%]'>
+            <div className='lg:p-15 lg:w-[25%] md:w-[50%] md:mb-[30px] w-[100%] p-2 '>
               <h4 className='text-2xl font-Poppins capitalize mb-[30px] relative font-medium'>
                 Follow Us
-                <span className='absolute left-0 bottom-[-10px] bg-pink-500 h-[2px] box-border w-[50px]'> 
-               </span>
+                <span className='absolute left-0 bottom-[-10px] bg-orange-600 h-[2px] box-border w-[50px]'>
+                </span>
 
               </h4>
               <div className='flex flex-row   mt-[10px] '>
-                <div className=' flex justify-center items-center mr-[10px] mb-[10px] h-[40px] rounded-full  bg-white/20 w-[40px]'>
-                <BsFacebook></BsFacebook>
+                <div className=' flex justify-center items-center mr-[10px] mb-[10px] h-[40px] rounded-full hover:bg-white hover:text-black bg-white/20 w-[40px]'>
+                  <BsFacebook></BsFacebook>
                 </div>
-                <div className='flex justify-center items-center   mr-[10px] rounded-full mb-[10px] h-[40px]  bg-white/20 w-[40px]'>
+                <div className='flex justify-center items-center   mr-[10px] rounded-full mb-[10px] h-[40px] hover:bg-white hover:text-black bg-white/20 w-[40px]'>
                   <div className='leading-10 text-center'>
-                <BsTwitter ></BsTwitter>
+                    <BsTwitter ></BsTwitter>
+                  </div>
                 </div>
+                <div className='flex justify-center items-center mb-[10px] rounded-full mr-[10px] h-[40px] hover:bg-white hover:text-black bg-white/20 w-[40px]'>
+                  <BsInstagram ></BsInstagram>
                 </div>
-                <div className='flex justify-center items-center mb-[10px] rounded-full mr-[10px] h-[40px]  bg-white/20 w-[40px]'>
-                <BsInstagram ></BsInstagram>
-                </div>
-               
-               <div className='flex items-center justify-centermb-[10px] rounded-full mr-[10px] h-[40px]  bg-white/20 w-[40px] '><BsWhatsapp></BsWhatsapp></div> 
-               
-           
-               
-              
-        
+
+                <div className='flex items-center justify-center mb-[10px] rounded-full mr-[10px] h-[40px] hover:bg-white hover:text-black bg-white/20 w-[40px] '>
+                  <BsWhatsapp></BsWhatsapp>
+                  </div>
+
+
+
+
+
               </div>
             </div>
           </div>
