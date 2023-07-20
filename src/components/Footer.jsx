@@ -10,7 +10,7 @@ const Footer = () => {
       <footer className="bg-black p-[70px]">
         <div className='text-white max-w-[1170px] m-auto'>
           <div className='flex flex-wrap'>
-            <div className='p-15 w-[25%]'>
+            <div className='lg:p-15 lg:w-[25%] md:mb-[10px] md:w-[50%] w-[100%]'>
               <h4 className='text-2xl font-Poppins capitalize mb-[30px] relative font-medium '>
                 Company
                 <span className='absolute left-0 bottom-[-10px]  bg-orange-600 h-[2px] box-border w-[50px]'>
@@ -25,7 +25,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className='p-15 w-[25%] '>
+            <div className='lg:p-15 lg:w-[25%] md:mb-[10px] md:w-[50%] w-[100%] '>
               <h4 className='text-2xl font-Poppins capitalize mb-[30px] relative font-medium'>
                 Get help
                 <span className='absolute left-0 bottom-[-10px] bg-orange-600 h-[2px] box-border w-[50px]'>
@@ -41,7 +41,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className='p-15 w-[25%] '>
+            <div className='lg:p-15 lg:w-[25%] md:mb-[10px] md:w-[50%] w-[100%] '>
               <h4 className='text-2xl font-Poppins capitalize mb-[30px] relative font-medium'>
                 Menu Card
                 <span className='absolute left-0 bottom-[-10px] bg-orange-600 h-[2px] box-border w-[50px]'>
@@ -56,7 +56,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className='p-15 w-[25%]   '>
+            <div className='lg:p-15 lg:w-[25%] md:mb-[10px] md:w-[50%] w-[100%]   '>
               <h4 className='text-2xl font-Poppins capitalize mb-[30px] relative font-medium'>
                 Follow Us
                 <span className='absolute left-0 bottom-[-10px] bg-orange-600 h-[2px] box-border w-[50px]'>

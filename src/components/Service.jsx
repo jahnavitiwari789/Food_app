@@ -83,9 +83,12 @@ const Service = () => {
                 </div>
                 <div className="form-group">
                     <label  className="font-serif text-xl" for="message">Message: </label>
-                    <textarea className=' w-[100%]  border-4  p-2 rounded-lg text-lg' name="message" id="message" cols="30" rows="10" placeholder='Comment it'></textarea>
+                    <textarea className=' md:w-[100%] min-w-[20px]  border-4   p-2 rounded-lg text-lg' name="message" id="message" cols="5" rows="3" placeholder='Comment it'></textarea>
                 </div>
+
+                <button  className=' px-4 py-2 md:w-auto rounded-lg hover:shadow-lg  bg-black text-white w-full'>Submit</button>  
             </form>
+           
         </div>
         </div>
     </section>
