@@ -2,7 +2,7 @@
 
 <ul>
 <li>  It is the website in which I used my 'REACT' learning with lots of fun and techs.</li>
-<li>>I used 'react-icons' package  with taken care of best user experience.</li>
+<li>I used 'react-icons' package  with taken care of best user experience.</li>
 <li>I designed each page with Tailwind CSS and used javascript for toggling.</li>
 <li>I used 'framer-motion' package for animations.</li>
 <li>This react app project uses 'REACT-ROUTER-DOM' package for routing to avoid page reload and fast services.</li>
@@ -11,6 +11,9 @@
 <li>My experience with technologies, and self learning helped me a lot for making this food delivery website </li>
 
 </ul>
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
