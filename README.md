@@ -15,7 +15,35 @@
 
 
 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Results
+
+1. Home Page-->
+
+
+![Screenshot (26)](https://github.com/jahnavitiwari789/Food_app/assets/83580715/0661f9a4-712d-431d-9bbe-9fdaa542f82d)
+
+
+![Screenshot (27)](https://github.com/jahnavitiwari789/Food_app/assets/83580715/ac00d7b5-9616-49b5-9294-5364a8d4509a)
+
+2. Cart Container-->
+
+
+![Screenshot (29)](https://github.com/jahnavitiwari789/Food_app/assets/83580715/416fd603-2745-4711-b275-c7f8e8f26f3f)
+
+3. Menu Page-->
+
+
+![Screenshot (28)](https://github.com/jahnavitiwari789/Food_app/assets/83580715/98c706bb-64d8-4d97-a913-223f98fa33ab)
+
+4. Testimonials-->
+
+![Screenshot (30)](https://github.com/jahnavitiwari789/Food_app/assets/83580715/4b6b4083-2775-4538-a654-bffb4893caae)
+
+
+
 
 ## Available Scripts
 
